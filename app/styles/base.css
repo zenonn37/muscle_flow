@@ -3,4 +3,47 @@
 body {
   font-family: helvectica, Arial sans-serif;
   font-size: 14px;
+  background-color: #282b2d;
+}
+.trimRed {
+  background-color: #ffffff;
+  height: 20px;
+  margin-bottom: 50px;
+}
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.14285714;
+  color: inherit;
+  background-color: #ffffff;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  line-height: 1;
+  color: inherit;
+}
+.jumbotron p {
+  line-height: 1.4;
+}
+.container .jumbotron {
+  border-radius: 4px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
 }
