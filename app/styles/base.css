@@ -10,6 +10,10 @@ body {
   height: 20px;
   margin-bottom: 50px;
 }
+.navbar-default {
+  background-color: #262626;
+  border-color: transparent;
+}
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
@@ -17,7 +21,8 @@ body {
   font-weight: 200;
   line-height: 2.14285714;
   color: inherit;
-  background-color: #ffffff;
+  background: url(/styles/images/weights_mast.jpg);
+  background-size: cover;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -46,4 +51,52 @@ body {
   .jumbotron .h1 {
     font-size: 63px;
   }
+}
+.services-panel {
+  background-color: #262626;
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+.services-panel h2 {
+  color: #c0392b;
+}
+.services-panel p {
+  color: #fff;
+  font-size: 16px;
+}
+.reinvent-panel {
+  background-color: #262626;
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+.reinvent-panel h2 {
+  color: #c0392b;
+}
+.reinvent-panel p {
+  color: #fff;
+  font-size: 16px;
+}
+.testimonial-panel {
+  background-color: #262626;
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+.testimonial-panel h2 {
+  color: #c0392b;
+}
+.testimonial-panel p {
+  color: #fff;
+  font-size: 16px;
 }

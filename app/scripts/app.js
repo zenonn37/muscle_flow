@@ -4,13 +4,13 @@ angular.module('muscleFlow_App', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-    'ui.router'
+  'ui.router'
 ]).config(['$urlRouterProvider','$stateProvider',function($urlRouterProvider,$stateProvider){
 
               $urlRouterProvider.otherwise('/');
 
 
-                                $stateProvider
+                      $stateProvider
 
                                     .state('/',{
 
