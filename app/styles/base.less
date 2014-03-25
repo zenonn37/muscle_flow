@@ -22,7 +22,7 @@ body{
 }
 
 .navbar-default {
-  background-color: @panelColors;
+  background-color:@headerColors;
   border-color: transparent;
 }
 
@@ -74,13 +74,35 @@ body{
 
 //start main page panels
 
-.services-panel{
+
+
+.mainPage{
 
   background-color:@panelColors;
   padding: 20px 20px;
   border: 1px solid transparent;
   .roundedCorners;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+
+
+  h2{
+    color:@headerColors;
+  }
+  p{
+    color: #fff;
+    font-size: @baseFontSize;
+  }
+
+
+}
+
+.services-panel{
+
+  //background-color:@panelColors;
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  .roundedCorners;
+  margin-bottom: 100px;
 
 
   h2{
@@ -98,14 +120,14 @@ body{
 
 .reinvent-panel{
 
-  background-color:@panelColors;
+  //background-color:@panelColors;
   padding: 20px 20px;
   border: 1px solid transparent;
   .roundedCorners;
   margin-bottom: 60px;
 
 
-  h2{
+  h2,h4{
     color:@headerColors;
   }
   p{
@@ -118,11 +140,34 @@ body{
 
 .testimonial-panel{
 
-  background-color:@panelColors;
+  //background-color:@panelColors;
   padding: 20px 20px;
   border: 1px solid transparent;
   .roundedCorners;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+
+
+  h2{
+    color:@headerColors;
+  }
+
+
+  p{
+    color: #fff;
+    font-size: @baseFontSize;
+  }
+
+}
+
+
+
+footer{
+
+  //background-color:@panelColors;
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  .roundedCorners;
+
 
 
   h2{

@@ -11,7 +11,7 @@ body {
   margin-bottom: 50px;
 }
 .navbar-default {
-  background-color: #262626;
+  background-color: #c0392b;
   border-color: transparent;
 }
 .jumbotron {
@@ -52,14 +52,29 @@ body {
     font-size: 63px;
   }
 }
-.services-panel {
+.mainPage {
   background-color: #262626;
   padding: 20px 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+}
+.mainPage h2 {
+  color: #c0392b;
+}
+.mainPage p {
+  color: #fff;
+  font-size: 16px;
+}
+.services-panel {
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 100px;
 }
 .services-panel h2 {
   color: #c0392b;
@@ -69,7 +84,6 @@ body {
   font-size: 16px;
 }
 .reinvent-panel {
-  background-color: #262626;
   padding: 20px 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
@@ -77,7 +91,8 @@ body {
   border-radius: 5px;
   margin-bottom: 60px;
 }
-.reinvent-panel h2 {
+.reinvent-panel h2,
+.reinvent-panel h4 {
   color: #c0392b;
 }
 .reinvent-panel p {
@@ -85,18 +100,31 @@ body {
   font-size: 16px;
 }
 .testimonial-panel {
-  background-color: #262626;
   padding: 20px 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 .testimonial-panel h2 {
   color: #c0392b;
 }
 .testimonial-panel p {
+  color: #fff;
+  font-size: 16px;
+}
+footer {
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+footer h2 {
+  color: #c0392b;
+}
+footer p {
   color: #fff;
   font-size: 16px;
 }
