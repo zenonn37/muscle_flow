@@ -6,7 +6,7 @@ body {
   background-color: #282b2d;
 }
 .trimRed {
-  background-color: #ffffff;
+  background-color: #c0392b;
   height: 20px;
   margin-bottom: 50px;
 }
@@ -23,6 +23,27 @@ body {
   color: inherit;
   background: url(/styles/images/weights_mast.jpg);
   background-size: cover;
+}
+.jumbotron .mast {
+  min-height: 400px;
+  margin-top: 200px;
+}
+.jumbotron .tagLine {
+  background-color: #c0392b;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+}
+.jumbotron .tagLine h2 {
+  color: #fff;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.jumbotron .tagLine p {
+  padding-bottom: 10px;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -53,7 +74,6 @@ body {
   }
 }
 .mainPage {
-  background-color: #262626;
   padding: 20px 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
@@ -69,12 +89,13 @@ body {
   font-size: 16px;
 }
 .services-panel {
+  background-color: #262626;
   padding: 20px 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .services-panel h2 {
   color: #c0392b;
@@ -84,7 +105,7 @@ body {
   font-size: 16px;
 }
 .reinvent-panel {
-  padding: 20px 20px;
+  padding: 20px 10px 20px 10px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -98,6 +119,12 @@ body {
 .reinvent-panel p {
   color: #fff;
   font-size: 16px;
+}
+.reinvent-panel .reinvent-services {
+  background-color: #262626;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .testimonial-panel {
   padding: 20px 20px;

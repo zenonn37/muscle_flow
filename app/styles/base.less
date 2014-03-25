@@ -39,6 +39,29 @@ body{
   background: url(/styles/images/weights_mast.jpg);
   background-size: cover;
 
+  .mast{
+
+    min-height: 400px;
+    margin-top: 200px;
+  }
+
+
+  .tagLine{
+    background-color: @headerColors;
+    .roundedCorners;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    h2{
+      color: #fff;
+      font-size: 36px;
+      text-transform: uppercase;
+    }
+    p{
+      padding-bottom: 10px;
+    }
+  }
+
   h1,
   .h1 {
     line-height: 1;
@@ -76,9 +99,10 @@ body{
 
 
 
+
 .mainPage{
 
-  background-color:@panelColors;
+  //background-color:@panelColors;
   padding: 20px 20px;
   border: 1px solid transparent;
   .roundedCorners;
@@ -98,11 +122,11 @@ body{
 
 .services-panel{
 
-  //background-color:@panelColors;
+  background-color:@panelColors;
   padding: 20px 20px;
   border: 1px solid transparent;
   .roundedCorners;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 
 
   h2{
@@ -120,8 +144,8 @@ body{
 
 .reinvent-panel{
 
-  //background-color:@panelColors;
-  padding: 20px 20px;
+
+  padding: 20px 10px 20px 10px;
   border: 1px solid transparent;
   .roundedCorners;
   margin-bottom: 60px;
@@ -133,6 +157,12 @@ body{
   p{
     color: #fff;
     font-size: @baseFontSize;
+  }
+
+  .reinvent-services{
+    background-color:@panelColors;
+    .roundedCorners;
+
   }
 
 
