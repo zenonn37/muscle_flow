@@ -9,16 +9,17 @@ body{
 
   font-family: helvectica, Arial sans-serif;
   font-size: 14px;
-  background-color:@backGroundColors;
+  background:@backGroundColors url("images/weights_mast_back.jpg") no-repeat;
+  background-size: cover;
 
 
 }
 
 //trim elements
 .trimRed{
-  background-color: @trim-red;
-  height:20px;
-  margin-bottom: 50px;
+  .gradientsRedDiag;
+  height:30px;
+  margin-bottom: 60px;
 }
 
 .navbar-default {
@@ -36,7 +37,7 @@ body{
   line-height: (@line-height-base * 1.5);
   color: @jumbotron-color;
   //background-color: @jumbotron-bg;
-  background: url(/styles/images/weights_mast.jpg);
+  background: #fff url("images/hero_muscle.jpg") 50% 50% no-repeat;
   background-size: cover;
 
   .mast{
@@ -170,7 +171,7 @@ body{
 
 .testimonial-panel{
 
-  //background-color:@panelColors;
+  background-color:@panelColors;
   padding: 20px 20px;
   border: 1px solid transparent;
   .roundedCorners;
@@ -193,10 +194,10 @@ body{
 
 footer{
 
-  //background-color:@panelColors;
-  padding: 20px 20px;
+  .gradientsRedVert;
+  padding: 5px 20px;
   border: 1px solid transparent;
-  .roundedCorners;
+  //.roundedCorners;
 
 
 
