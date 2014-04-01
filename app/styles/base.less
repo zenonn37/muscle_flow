@@ -9,7 +9,7 @@ body{
 
   font-family: helvectica, Arial sans-serif;
   font-size: 14px;
-  background:@backGroundColors url("images/weights_mast_back.jpg") no-repeat;
+  background:@backGroundColors;
   background-size: cover;
 
 
@@ -23,8 +23,22 @@ body{
 }
 
 .navbar-default {
-  background-color:@headerColors;
+  background-color:@navBar;
   border-color: transparent;
+
+
+
+}
+
+
+.navbar {
+
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 0;
+  border-radius: 1px;
+
+  border: 1px solid transparent;
 }
 
 //jumbotron only
@@ -194,9 +208,11 @@ body{
 
 footer{
 
-  .gradientsRedVert;
+  //.gradientsRedVert;
   padding: 5px 20px;
   border: 1px solid transparent;
+  background-color: #efefef;
+  height: 250px;
   //.roundedCorners;
 
 
