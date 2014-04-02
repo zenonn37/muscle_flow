@@ -22,11 +22,11 @@ angular.module('muscleFlow_App', [
 
                                     })
 
-                                    .state('about',{
+                                    .state('company',{
 
-                                        url:'/about',
-                                        templateUrl:'templates/about.html',
-                                        controller:'aboutCtrl'
+                                        url:'/company',
+                                        templateUrl:'scripts/company/abCompany.html',
+                                        controller:'companyCtrl'
 
 
 

@@ -5,6 +5,12 @@ body {
   font-size: 14px;
   background: #282b2d url("images/grid_40.png");
 }
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+.ng-cloak {
+  display: none !important;
+}
 .trimRed {
   background: #a90329;
   /* Old browsers */

@@ -1,0 +1,75 @@
+<div class="aboutPage" data-ng-controller="companyCtrl">
+
+
+
+
+    <div class="container">
+
+        <div class="col-sm-3">
+
+
+
+            <ul class="nav nav-pills nav-stacked well">
+                <li class="active"><a href ng-click="aboutComp();">Company</a></li>
+                <li><a href ng-click="terryBio();">Terry Pittman</a></li>
+                <li><a href ng-click="debbieBio();">Debbie</a></li>
+                <li><a href ng-click="trainer_2Bio();">Trainer 2</a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="aboutPanel">
+            <div class="col-sm-8">
+
+              <div class="row-fluid">
+
+
+
+
+                  <div ng-switch on="showSecret">
+                      <div ng-switch-when="1"><div ng-include="'scripts/company/terry.tpl.html'"></div>
+
+                      </div>
+                      <div ng-switch-when="2">
+                          <div ng-include="'scripts/company/debbie.tpl.html'"></div>
+
+
+                          </div>
+
+                      <div ng-switch-when="3">
+
+                          <div ng-include="'scripts/company/trainer.tpl.html'"></div>
+
+                      </div>
+
+
+                      <div ng-switch-default>
+
+                          <div ng-include="'scripts/company/company.tpl.html'"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+</div>

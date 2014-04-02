@@ -20,7 +20,7 @@
       <script src="bower_components/less/dist/less-1.7.0.min.js"></script>
     <!-- endbuild -->
   </head>
-  <body ng-app="muscleFlow_App">
+  <body ng-app="muscleFlow_App" ng-cloak>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -51,7 +51,7 @@
                         <li><a href="#">Rehabilitation</a></li>
 
                     </ul>
-                <li><a href="#/about">Company</a></li>
+                <li><a href="#/company">Company</a></li>
                 <li><a href="#">Schedule</a></li>
                 <li><a href="#">Contact</a></li>
                 </li>
@@ -145,6 +145,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/mainCtrl.js"></script>
+        <script src="scripts/company/companyCtrl.js"></script>
         <!-- endbuild -->
 </body>
 </html>
