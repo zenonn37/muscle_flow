@@ -3,8 +3,7 @@
 body {
   font-family: helvectica, Arial sans-serif;
   font-size: 14px;
-  background: #282b2d;
-  background-size: cover;
+  background: #282b2d url("images/grid_40.png");
 }
 .trimRed {
   background: #a90329;
@@ -46,7 +45,7 @@ body {
   font-weight: 200;
   line-height: 2.14285714;
   color: inherit;
-  background: #ffffff url("images/hero_muscle.jpg") 50% 50% no-repeat;
+  background: #ffffff url("images/masthead_placeholder.png") 50% 50% no-repeat;
   background-size: cover;
 }
 .jumbotron .mast {
@@ -99,7 +98,6 @@ body {
   }
 }
 .mainPage {
-  padding: 20px 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -130,12 +128,13 @@ body {
   font-size: 16px;
 }
 .reinvent-panel {
-  padding: 20px 10px 20px 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   border: 1px solid transparent;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
   margin-bottom: 60px;
+  background: #262626 url("images/tall_girl_terry_b.jpg") no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 .reinvent-panel h2,
 .reinvent-panel h4 {
@@ -146,10 +145,13 @@ body {
   font-size: 16px;
 }
 .reinvent-panel .reinvent-services {
-  background-color: #262626;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  background-color: rgba(38, 38, 38, 0.5);
+  position: relative;
+  margin-top: 50px;
+  padding-right: 50px;
 }
 .testimonial-panel {
   background-color: #262626;

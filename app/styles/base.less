@@ -9,8 +9,10 @@ body{
 
   font-family: helvectica, Arial sans-serif;
   font-size: 14px;
-  background:@backGroundColors;
-  background-size: cover;
+  background:@backGroundColors url("images/grid_40.png");
+  //position: fixed;
+  //height: 300%;
+
 
 
 }
@@ -51,7 +53,7 @@ body{
   line-height: (@line-height-base * 1.5);
   color: @jumbotron-color;
   //background-color: @jumbotron-bg;
-  background: #fff url("images/hero_muscle.jpg") 50% 50% no-repeat;
+  background: #fff url("images/masthead_placeholder.png") 50% 50% no-repeat;
   background-size: cover;
 
   .mast{
@@ -118,7 +120,7 @@ body{
 .mainPage{
 
   //background-color:@panelColors;
-  padding: 20px 20px;
+  //padding: 20px 20px;
   border: 1px solid transparent;
   .roundedCorners;
   margin-bottom: 100px;
@@ -160,10 +162,15 @@ body{
 .reinvent-panel{
 
 
-  padding: 20px 10px 20px 10px;
+  //padding: 20px 10px 20px 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   border: 1px solid transparent;
-  .roundedCorners;
+  //.roundedCorners;
   margin-bottom: 60px;
+  background:@panelColors url("images/tall_girl_terry_b.jpg") no-repeat;
+  background-size: cover;
+  height: 500px;
 
 
   h2,h4{
@@ -175,8 +182,17 @@ body{
   }
 
   .reinvent-services{
-    background-color:@panelColors;
+
     .roundedCorners;
+
+    background-color: rgba(38,38,38,0.5);
+    position: relative;
+    margin-top: 50px;
+    padding-right: 50px;
+    //margin-left:50px;
+
+
+
 
   }
 
