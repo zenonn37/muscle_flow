@@ -5,19 +5,20 @@
 angular.module('muscleFlow_App')
     .controller('companyCtrl',['$scope',function($scope){
 
-    $scope.header = "Muscle Flow Systems";
+    $scope.comp = "Muscle Flow Training Systems";
+    $scope.deb = "Debbie Pederson";
+    $scope.terry = "Terry Pittman";
+    $scope.trainer = "Trainer 3";
 
         //$scope.company = true;
-        $scope.terry = false;
-        $scope.debbie = false;
-        $scope.trainer2 = false;
+
 
 
         //view function
      $scope.aboutComp = function(){
 
          //$scope.company = true;
-         $scope.terry = false;
+
          $scope.showSecret = 4;
 
 
@@ -28,8 +29,7 @@ angular.module('muscleFlow_App')
 
         $scope.terryBio = function(){
 
-            $scope.terry = true;
-            $scope.company = false;
+
             $scope.showSecret = 1;
 
 

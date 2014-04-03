@@ -2,7 +2,7 @@
 /*css file*/
 body {
   font-family: helvectica, Arial sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   background: #282b2d url("images/grid_40.png");
 }
 [ng\:cloak],
@@ -43,6 +43,21 @@ body {
   margin-bottom: 0;
   border-radius: 1px;
   border: 1px solid transparent;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #c0392b;
+  background-color: #c0392b;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #c0392b;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+  color: #fff;
 }
 .jumbotron {
   padding: 30px;
@@ -174,6 +189,28 @@ body {
 .testimonial-panel p {
   color: #fff;
   font-size: 16px;
+}
+.aboutPanel {
+  background-color: #262626;
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+.aboutPanel h2 {
+  color: #c0392b;
+}
+.aboutPanel p {
+  color: #fff;
+  font-size: 18px;
+}
+.aboutPanel .nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 20px;
+  list-style: none;
 }
 footer {
   padding: 5px 20px;

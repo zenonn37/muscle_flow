@@ -8,7 +8,7 @@
 body{
 
   font-family: helvectica, Arial sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   background:@backGroundColors url("images/grid_40.png");
   //position: fixed;
   //height: 300%;
@@ -46,6 +46,21 @@ body{
   border-radius: 1px;
 
   border: 1px solid transparent;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: @headerColors;
+  background-color: @headerColors;
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: @headerColors;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+  color: #fff;
 }
 
 //jumbotron only
@@ -116,6 +131,8 @@ body{
     }
   }
 }
+
+
 
 //start main page panels
 
@@ -225,6 +242,37 @@ body{
 
 }
 
+.aboutPanel{
+
+
+  background-color:@panelColors;
+  padding: 20px 20px;
+  border: 1px solid transparent;
+  .roundedCorners;
+  margin-bottom: 60px;
+
+
+  h2{
+    color:@headerColors;
+  }
+  p{
+    color: #fff;
+    font-size: @baseFontSize + 2;
+  }
+
+  .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    list-style: none;
+  }
+
+
+
+
+
+}
+
 
 
 footer{
@@ -247,3 +295,6 @@ footer{
   }
 
 }
+
+
+
