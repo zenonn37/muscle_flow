@@ -18,7 +18,7 @@ angular.module('muscleFlow_App')
      $scope.aboutComp = function(){
 
          //$scope.company = true;
-
+         $scope.pageClass = 'company-page'
          $scope.showSecret = 4;
 
 
@@ -29,7 +29,7 @@ angular.module('muscleFlow_App')
 
         $scope.terryBio = function(){
 
-
+            $scope.pageClass = 'terry-page'
             $scope.showSecret = 1;
 
 
@@ -37,12 +37,16 @@ angular.module('muscleFlow_App')
 
         $scope.debbieBio = function(){
 
+            $scope.pageClass = 'debbie-page'
+
             $scope.showSecret = 2;
 
 
         }
 
         $scope.trainer_2Bio = function(){
+
+            $scope.pageClass = 'trainer-page'
 
             $scope.showSecret = 3;
 

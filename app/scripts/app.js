@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('muscleFlow_App', [
-  'ngCookies',
-  'ngResource',
-  'ngSanitize',
-  'ui.router'
+angular.module('muscleFlow_App', ['ui.router','ngAnimate'
+
+
+
+
 ]).config(['$urlRouterProvider','$stateProvider',function($urlRouterProvider,$stateProvider){
 
               $urlRouterProvider.otherwise('/');
