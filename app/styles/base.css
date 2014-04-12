@@ -202,6 +202,26 @@
 body {
   font-family: helvectica, Arial sans-serif;
   font-size: 18px;
+  background: #282b2d url("images/grid_40.png");
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.sep-img {
+  height: 300px;
+  position: relative;
+  z-index: -99;
+}
+.mainPageBg {
+  background: url("images/tall_girl_terry_b.jpg") no-repeat;
+  position: relative;
+  z-index: -9999;
+  background-size: cover;
 }
 [ng\:cloak],
 [ng-cloak],
@@ -237,7 +257,7 @@ body {
 }
 .navbar {
   position: relative;
-  min-height: 40px;
+  height: 80px;
   margin-bottom: 0;
   border-radius: 1px;
   border: 1px solid transparent;
@@ -257,10 +277,21 @@ body {
   border-radius: 4px;
   color: #fff;
 }
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 25px 15px;
+}
+.navbar-brand {
+  float: left;
+  padding: 25px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 28px;
   color: #c0392b;
   text-transform: uppercase;
 }
@@ -287,7 +318,7 @@ body {
   font-weight: 200;
   line-height: 2.14285714;
   color: inherit;
-  background: #ffffff url("images/masthead_placeholder.png") 50% 50% no-repeat;
+  background: #ffffff url("images/vicki_bag.jpg") 10% 10% no-repeat;
   background-size: cover;
 }
 .jumbotron .mast {
@@ -354,15 +385,16 @@ body {
   font-size: 16px;
 }
 .services-panel {
-  background-color: #262626;
+  background-color: rgba(38, 38, 38, 0.9);
   padding: 20px 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   z-index: 100;
   position: relative;
+  height: 250px;
 }
 .services-panel h2 {
   color: #c0392b;
@@ -371,15 +403,17 @@ body {
   color: #fff;
   font-size: 16px;
 }
+.re-invent {
+  background-color: rgba(38, 38, 38, 0.9);
+  margin-bottom: 120px;
+}
 .reinvent-panel {
   padding-left: 30px;
   padding-right: 30px;
   border: 1px solid transparent;
-  margin-bottom: 60px;
-  background: #262626 url("images/tall_girl_terry_b.jpg") no-repeat;
-  background-size: cover;
+  margin-bottom: 300px;
+  margin-top: 60px;
   height: 500px;
-  z-index: -1000;
 }
 .reinvent-panel h2,
 .reinvent-panel h4 {
@@ -393,35 +427,42 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background-color: rgba(38, 38, 38, 0.5);
+  background-color: rgba(38, 38, 38, 0.9);
   position: relative;
   margin-top: 50px;
   padding-right: 50px;
 }
-.testimonial-panel {
-  background-color: #262626;
-  padding: 20px 20px;
-  border: 1px solid transparent;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+.testimonials {
+  margin-top: 100px;
   margin-bottom: 100px;
+  height: 350px;
+  background-color: rgba(38, 38, 38, 0.9);
+  padding: 30px 40px;
 }
-.testimonial-panel h2 {
+.testimonials h1 {
   color: #c0392b;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.testimonial-panel {
+  padding: 60px 20px;
+  border: 1px solid transparent;
+  height: 350px;
 }
 .testimonial-panel p {
   color: #fff;
   font-size: 16px;
 }
 .aboutPanel {
-  background-color: #262626;
+  background-color: rgba(38, 38, 38, 0.8);
   padding: 20px 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  margin-bottom: 60px;
+  margin-bottom: 500px;
+  margin-top: 250px;
+  height: 600px;
 }
 .aboutPanel h2 {
   color: #c0392b;
@@ -440,7 +481,7 @@ body {
   margin-bottom: 180px;
 }
 .service .service-panel {
-  background-color: #262626;
+  background-color: rgba(38, 38, 38, 0.8);
   padding: 30px 50px;
   border: 1px solid transparent;
   -webkit-border-radius: 5px;
