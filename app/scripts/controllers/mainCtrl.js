@@ -3,7 +3,10 @@
  */
 
 angular.module('muscleFlow_App')
-    .controller('mainCtrl',['$scope',function($scope){
+    .controller('mainCtrl',['$scope','parallaxHelper',function($scope,parallaxHelper){
+
+      $scope.background = parallaxHelper.createAnimator(-0.3,150,-150);
+
 
      $scope.header = "Muscle Flow Systems";
 

@@ -26,6 +26,7 @@
     <![endif]-->
 
     <nav class="navbar navbar-default" role="navigation">
+        <div smooth-scroll></div>
          <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -43,18 +44,13 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Home</a></li>
 
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Personal Training</a></li>
-                        <li><a href="#">Group Workshops</a></li>
-                        <li><a href="#">Rehabilitation</a></li>
+                <li>
+                    <a href="#/services">Services</a></li>
 
-                    </ul>
                 <li><a href="#/company">Company</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#scheduleMod">Schedule</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#contactMod">Contact</a></li>
-                </li>
+
             </ul>
 
 
@@ -62,21 +58,8 @@
          </div>
     </nav>
 
-    <div class="jumbotron">
 
 
-
-
-
-        <div class="mast">
-
-
-
-        </div>
-
-
-
-    </div>
 
 
 
@@ -180,6 +163,8 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/jquery.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -187,13 +172,20 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
+    <script src="bower_components/ng-parallax/angular-parallax.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/js/scroll.js"></script>
+        <script src="scripts/js/pagescroll.js"></script>
         <script src="scripts/controllers/mainCtrl.js"></script>
         <script src="scripts/company/companyCtrl.js"></script>
+        <script src="scripts/services/serviceCtrl.js"></script>
+
+
         <!-- endbuild -->
 </body>
 </html>

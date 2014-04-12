@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('muscleFlow_App', ['ui.router','ngAnimate'
+angular.module('muscleFlow_App', ['ui.router','ngAnimate','duParallax','smoothScroll'
 
 
 
@@ -40,6 +40,16 @@ angular.module('muscleFlow_App', ['ui.router','ngAnimate'
 
 
                                     })
+
+                                  .state('services',{
+
+                              url:'/services',
+                              templateUrl:'scripts/services/services.tpl.html',
+                              controller:'serviceCtrl'
+
+
+
+                                 })
 
 
 

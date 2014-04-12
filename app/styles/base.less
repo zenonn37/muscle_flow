@@ -10,13 +10,17 @@ body{
 
   font-family: helvectica, Arial sans-serif;
   font-size: 18px;
-  background:@backGroundColors url("images/grid_40.png");
+  //background:@backGroundColors url("images/grid_40.png");
   //position: fixed;
   //height: 300%;
 
 
 
+
+
 }
+
+
 
 
 [ng\:cloak],[ng-cloak],[data-ng-cloak],.ng-cloak{
@@ -197,6 +201,8 @@ body{
   border: 1px solid transparent;
   .roundedCorners;
   margin-bottom: 60px;
+  z-index: 100;
+  position: relative;
 
 
   h2{
@@ -224,6 +230,7 @@ body{
   background:@panelColors url("images/tall_girl_terry_b.jpg") no-repeat;
   background-size: cover;
   height: 500px;
+  z-index: -1000;
 
 
   h2,h4{
@@ -304,7 +311,36 @@ body{
 
 }
 
+.service{
 
+  margin-bottom: 180px;
+
+  .bg{
+
+
+  }
+
+  .service-panel{
+
+    background-color:@panelColors;
+    padding: 30px 50px;
+    border: 1px solid transparent;
+    .roundedCorners;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    min-height: 400px;
+
+
+    h1{
+      color:@headerColors;
+    }
+    p{
+      color: #fff;
+      font-size: @baseFontSize + 2;
+    }
+
+  }
+}
 
 footer{
 
@@ -312,7 +348,7 @@ footer{
   padding: 5px 20px;
   border: 1px solid transparent;
   background-color: #efefef;
-  height: 250px;
+  height: 50px;
   //.roundedCorners;
 
 

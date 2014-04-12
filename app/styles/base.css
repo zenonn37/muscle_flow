@@ -202,7 +202,6 @@
 body {
   font-family: helvectica, Arial sans-serif;
   font-size: 18px;
-  background: #282b2d url("images/grid_40.png");
 }
 [ng\:cloak],
 [ng-cloak],
@@ -362,6 +361,8 @@ body {
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 60px;
+  z-index: 100;
+  position: relative;
 }
 .services-panel h2 {
   color: #c0392b;
@@ -378,6 +379,7 @@ body {
   background: #262626 url("images/tall_girl_terry_b.jpg") no-repeat;
   background-size: cover;
   height: 500px;
+  z-index: -1000;
 }
 .reinvent-panel h2,
 .reinvent-panel h4 {
@@ -434,11 +436,32 @@ body {
   margin-top: 20px;
   list-style: none;
 }
+.service {
+  margin-bottom: 180px;
+}
+.service .service-panel {
+  background-color: #262626;
+  padding: 30px 50px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  min-height: 400px;
+}
+.service .service-panel h1 {
+  color: #c0392b;
+}
+.service .service-panel p {
+  color: #fff;
+  font-size: 18px;
+}
 footer {
   padding: 5px 20px;
   border: 1px solid transparent;
   background-color: #efefef;
-  height: 250px;
+  height: 50px;
 }
 footer h2 {
   color: #c0392b;
