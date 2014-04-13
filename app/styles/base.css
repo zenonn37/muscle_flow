@@ -202,7 +202,8 @@
 body {
   font-family: helvectica, Arial sans-serif;
   font-size: 18px;
-  background: #282b2d url("images/grid_40.png");
+  background: #282b2d url("images/grid_40.png") repeat;
+  line-height: 1.5em;
 }
 .list-group-item {
   position: relative;
@@ -213,15 +214,16 @@ body {
   border: 1px solid transparent;
 }
 .sep-img {
-  height: 300px;
+  width: 100%;
+  height: 1000px;
   position: relative;
-  z-index: -99;
+  background: url("images/bench_man.jpg") no-repeat;
+  background-size: cover;
 }
 .mainPageBg {
   background: url("images/tall_girl_terry_b.jpg") no-repeat;
   position: relative;
   z-index: -9999;
-  background-size: cover;
 }
 [ng\:cloak],
 [ng-cloak],
@@ -280,7 +282,7 @@ body {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 25px 15px;
+  padding: 35px 15px;
 }
 .navbar-brand {
   float: left;
@@ -384,53 +386,29 @@ body {
   color: #fff;
   font-size: 16px;
 }
-.services-panel {
-  background-color: rgba(38, 38, 38, 0.9);
-  padding: 20px 20px;
-  border: 1px solid transparent;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  margin-bottom: 120px;
-  z-index: 100;
-  position: relative;
-  height: 250px;
-}
-.services-panel h2 {
-  color: #c0392b;
-}
-.services-panel p {
-  color: #fff;
-  font-size: 16px;
-}
 .re-invent {
   background-color: rgba(38, 38, 38, 0.9);
   margin-bottom: 120px;
 }
-.reinvent-panel {
-  padding-left: 30px;
-  padding-right: 30px;
-  border: 1px solid transparent;
-  margin-bottom: 300px;
-  margin-top: 60px;
+.get-started {
+  background-color: #ffffff;
+  margin-bottom: 120px;
+  width: 100%;
   height: 500px;
 }
-.reinvent-panel h2,
-.reinvent-panel h4 {
-  color: #c0392b;
+.get-started p {
+  color: #222222;
+  font-size: 18px;
+  line-height: 2.5em;
 }
-.reinvent-panel p {
-  color: #fff;
-  font-size: 16px;
+.get-started .mot-v {
+  padding-left: 20px;
+  padding-top: 20px;
 }
-.reinvent-panel .reinvent-services {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  background-color: rgba(38, 38, 38, 0.9);
-  position: relative;
-  margin-top: 50px;
-  padding-right: 50px;
+.get-started .mark {
+  padding-top: 40px;
+  padding-left: 150px;
+  width: 550px;
 }
 .testimonials {
   margin-top: 100px;

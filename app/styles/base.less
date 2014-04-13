@@ -10,9 +10,11 @@ body{
 
   font-family: helvectica, Arial sans-serif;
   font-size: 18px;
-  background:@backGroundColors url("images/grid_40.png");
+  background:@backGroundColors url("images/grid_40.png") repeat;
+  //background: url("images/bench_man.jpg") no-repeat;
   //position: fixed;
   //height: 300%;
+  line-height: 1.5em;
 
 
 
@@ -30,9 +32,15 @@ body{
 }
 
 .sep-img{
-  height: 300px;
+
+   width: 100%;
+  height: 1000px;
+
+
   position: relative;
-  z-index: -99;
+  //z-index: -99;
+  background: url("images/bench_man.jpg") no-repeat;
+  background-size: cover;
 }
 
 .mainPageBg{
@@ -40,7 +48,7 @@ body{
   background: url("images/tall_girl_terry_b.jpg") no-repeat;
   position: relative;
   z-index: -9999;
-  background-size: cover;
+
   //height: 1000%;
 }
 
@@ -95,7 +103,7 @@ body{
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 25px 15px;
+  padding: 35px 15px;
 }
 
 
@@ -232,78 +240,44 @@ body{
 
 }
 
-.services-panel{
 
-  background-color:rgba(38,38,38,0.9);
-
-  padding: 20px 20px;
-  border: 1px solid transparent;
-  .roundedCorners;
-  margin-bottom: 120px;
-  z-index: 100;
-  position: relative;
-  height: 250px;
-
-
-  h2{
-    color:@headerColors;
-  }
-  p{
-    color: #fff;
-    font-size: @baseFontSize;
-  }
-
-
-
-
-}
 
 .re-invent{
   background-color:rgba(38,38,38,0.9);
   margin-bottom: 120px;
 }
 
-.reinvent-panel{
+.get-started{
 
-
-  //padding: 20px 10px 20px 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: 1px solid transparent;
-  //.roundedCorners;
-  margin-bottom: 300px;
-  margin-top: 60px;
-  //background:@panelColors url("images/tall_girl_terry_b.jpg") no-repeat;
-  //background-size: cover;
+  background-color:rgba(255,255,255,1.0);
+  margin-bottom: 120px;
+  width: 100%;
   height: 500px;
-  //z-index: -1000;
 
-
-  h2,h4{
-    color:@headerColors;
-  }
   p{
-    color: #fff;
-    font-size: @baseFontSize;
+    color: #222222;
+    font-size: 18px;
+    line-height: 2.5em;
   }
 
-  .reinvent-services{
-
-    .roundedCorners;
-
-    background-color: rgba(38,38,38,0.9);
-    position: relative;
-    margin-top: 50px;
-    padding-right: 50px;
-    //margin-left:50px;
 
 
+  .mot-v{
+    padding-left: 20px;
+    padding-top: 20px;
+  }
 
-
+  .mark{
+    padding-top: 40px;
+    padding-left: 150px;
+    width: 550px;
   }
 
 
 }
+
+
+
 
 .testimonials{
   margin-top: 100px;
