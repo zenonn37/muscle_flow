@@ -16,7 +16,7 @@
     <!-- endbower -->
     <!-- endbuild -->
       <!-- build:css({.tmp,app}) styles/main.css -->
-    <link rel="stylesheet/less" href="styles/base.less">
+    <link rel="stylesheet" href="styles/base.css">
       <script src="bower_components/less/dist/less-1.7.0.min.js"></script>
     <!-- endbuild -->
   </head>
@@ -163,8 +163,6 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/jquery.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -174,13 +172,16 @@
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
     <script src="bower_components/ng-parallax/angular-parallax.min.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
         <script src="scripts/app.js"></script>
-        <script src="scripts/js/scroll.js"></script>
+
         <script src="scripts/js/pagescroll.js"></script>
         <script src="scripts/controllers/mainCtrl.js"></script>
         <script src="scripts/company/companyCtrl.js"></script>

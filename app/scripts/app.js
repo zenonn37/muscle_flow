@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('muscleFlow_App', ['ui.router','ngAnimate','duParallax','smoothScroll'
+angular.module('muscleFlow_App', ['ui.router','ngAnimate'
 
 
 

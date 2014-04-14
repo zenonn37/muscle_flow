@@ -3,9 +3,9 @@
  */
 angular.module('muscleFlow_App')
 
-          .controller('serviceCtrl',['$scope','parallaxHelper',function($scope, parallaxHelper){
+          .controller('serviceCtrl',['$scope',function($scope){
 
           $scope.header = "Services";
-          $scope.backgrounds = parallaxHelper.createAnimator(-0.3,150,-150);
+          //$scope.backgrounds = parallaxHelper.createAnimator(-0.3,150,-150);
 
     }]);

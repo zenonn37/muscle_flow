@@ -3,9 +3,9 @@
  */
 
 angular.module('muscleFlow_App')
-    .controller('companyCtrl',['$scope','parallaxHelper',function($scope,parallaxHelper){
+    .controller('companyCtrl',['$scope',function($scope){
 
-        $scope.backgrounds = parallaxHelper.createAnimator(-0.3,150,-150);
+       // $scope.backgrounds = parallaxHelper.createAnimator(-0.3,150,-150);
 
     $scope.comp = "Muscle Flow Training Systems";
     $scope.deb = "Debbie Pederson";
