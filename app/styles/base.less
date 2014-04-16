@@ -1,15 +1,22 @@
 /*css file*/
 
 
-@import "variables";
+//@import "variables";
 @import "colors";
 @import "mixins";
 @import "animations";
 
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
+
+//angular only ng cloak
+[ng\:cloak],[ng-cloak],[data-ng-cloak],.ng-cloak{
+  display: none !important;
+}
+//end angular
 body{
 
-  font-family: helvectica, Arial sans-serif;
-  font-size: 18px;
+  font: 100%/1.5em 'PT Sans', sans-serif;
+  //font-size: 18px;
   background:@backGroundColors url("images/grid_40.png") repeat;
   //background: url("images/bench_man.jpg") no-repeat;
   //position: fixed;
@@ -22,42 +29,22 @@ body{
 
 }
 
-.list-group-item {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: transparent;
-  border: 1px solid transparent;
-}
 
-.sep-img{
-
-   width: 100%;
-  height: 1000px;
-
-
-  position: relative;
-  //z-index: -99;
-  background: url("images/bench_man.jpg") no-repeat;
-  background-size: cover;
-}
-
-.mainPageBg{
-  
-  background: url("images/tall_girl_terry_b.jpg") no-repeat;
-  position: relative;
-  z-index: -9999;
-
-  //height: 1000%;
+h1, h2, h3 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  text-align: center;
 }
 
 
 
 
-[ng\:cloak],[ng-cloak],[data-ng-cloak],.ng-cloak{
-  display: none !important;
-}
+
+
+
+
+
+
 
 //trim elements
 .trimRed{
@@ -66,24 +53,25 @@ body{
   margin-bottom: 60px;
 }
 
-.navbar-default {
-  background-color:@navBar;
-  border-color: transparent;
+//.navbar-default {
+ // background-color:@navBar;
+ // border-color: transparent;
 
 
 
-}
+//}
 
 
-.navbar {
+//.navbar {
 
-  position: relative;
-  height: 80px;
-  margin-bottom: 0;
-  border-radius: 1px;
+  //position: relative;
+  //height: 80px;
+ //margin-bottom: 0;
+ // border-radius: 0;
 
-  border: 1px solid transparent;
-}
+  //border: none;
+  //font-size: 18px;
+//}
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: @headerColors;
@@ -107,12 +95,12 @@ body{
 }
 
 
-.navbar-brand {
-  float: left;
-  padding: 25px 15px;
-  font-size: 18px;
-  line-height: 20px;
-}
+//.navbar-brand {
+//  float: left;
+//  padding: 25px 15px;
+ // font-size: 18px;
+//  line-height: 20px;
+//}
 
 .panel-title {
   margin-top: 0;
@@ -147,21 +135,19 @@ body{
 //jumbotron only
 
 .jumbotron {
-  padding: @jumbotron-padding;
-  margin-bottom: @jumbotron-padding;
-  font-size: @jumbotron-font-size;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
   font-weight: 200;
-  line-height: (@line-height-base * 1.5);
-  color: @jumbotron-color;
-  //background-color: @jumbotron-bg;
-  background: #fff url("images/vicki_bag.jpg") 10% 10% no-repeat;
-  background-size: cover;
-
-  .mast{
-
-    min-height: 400px;
-    margin-top: 200px;
-  }
+  line-height: 2.14285714;
+  color: inherit;
+  background: #ffffff url("images/vicki_bag.jpg");
+  background-size: 100%;
+}
 
 
   .tagLine{

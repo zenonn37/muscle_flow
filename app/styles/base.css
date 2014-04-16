@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
 /*css file*/
 /*css file*/
 .animate-t.ng-leave {
@@ -199,37 +200,23 @@
     opacity: 0;
   }
 }
-body {
-  font-family: helvectica, Arial sans-serif;
-  font-size: 18px;
-  background: #282b2d url("images/grid_40.png") repeat;
-  line-height: 1.5em;
-}
-.list-group-item {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: transparent;
-  border: 1px solid transparent;
-}
-.sep-img {
-  width: 100%;
-  height: 1000px;
-  position: relative;
-  background: url("images/bench_man.jpg") no-repeat;
-  background-size: cover;
-}
-.mainPageBg {
-  background: url("images/tall_girl_terry_b.jpg") no-repeat;
-  position: relative;
-  z-index: -9999;
-}
 [ng\:cloak],
 [ng-cloak],
 [data-ng-cloak],
 .ng-cloak {
   display: none !important;
+}
+body {
+  font: 100%/1.5em 'PT Sans', sans-serif;
+  background: #282b2d url("images/grid_40.png") repeat;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  text-align: center;
 }
 .trimRed {
   background: #a90329;
@@ -253,17 +240,6 @@ body {
   height: 30px;
   margin-bottom: 60px;
 }
-.navbar-default {
-  background-color: #ffffff;
-  border-color: transparent;
-}
-.navbar {
-  position: relative;
-  height: 80px;
-  margin-bottom: 0;
-  border-radius: 1px;
-  border: 1px solid transparent;
-}
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
@@ -283,12 +259,6 @@ body {
   position: relative;
   display: block;
   padding: 35px 15px;
-}
-.navbar-brand {
-  float: left;
-  padding: 25px 15px;
-  font-size: 18px;
-  line-height: 20px;
 }
 .panel-title {
   margin-top: 0;
@@ -320,12 +290,12 @@ body {
   font-weight: 200;
   line-height: 2.14285714;
   color: inherit;
-  background: #ffffff url("images/vicki_bag.jpg") 10% 10% no-repeat;
-  background-size: cover;
+  background: #ffffff url("images/vicki_bag.jpg");
+  background-size: 100%;
 }
 .jumbotron .mast {
-  min-height: 400px;
-  margin-top: 200px;
+  height: 800px;
+  width: 100%;
 }
 .jumbotron .tagLine {
   background-color: #c0392b;

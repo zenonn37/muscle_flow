@@ -12,7 +12,7 @@ angular.module('muscleFlow_App', ['ui.router','ngAnimate'
 
                       $stateProvider
 
-                                    .state('/',{
+                                    .state('home',{
 
                                        url:'/',
                                        templateUrl:'templates/main.html',

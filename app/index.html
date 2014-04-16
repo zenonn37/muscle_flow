@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
@@ -25,38 +25,6 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <nav class="navbar navbar-default" role="navigation">
-        <div smooth-scroll></div>
-         <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#" title="Muscle Flow Training Systems"><img src="images/edit_mf_logo.png" alt="Muscle Flow Training Systems"></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-
-                <li>
-                    <a href="#/services">Services</a></li>
-
-                <li><a href="#/company">Company</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#scheduleMod">Schedule</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#contactMod">Contact</a></li>
-
-            </ul>
-
-
-        </div><!-- /.navbar-collapse -->
-         </div>
-    </nav>
 
 
 
@@ -70,6 +38,7 @@
 
 
 
+  <div ng-include src="'templates/includes/nav2.html'"></div>
     <!--nav-->
 
 
@@ -94,7 +63,7 @@
     <div class="navbar navbar-default navbar-fixed-bottom">
 
 
-          <div class="container">
+          <div class="container-fluidS">
 
              <p class="navbar-text pull-left"> Copyright 2014 Muscle Flow Training Systems</p>
               <p class="navbar-btn btn-danger btn pull-right">Sign up for Newsletter</p>
@@ -170,22 +139,21 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
-    <script src="bower_components/ng-parallax/angular-parallax.min.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
 
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+
         <script src="scripts/app.js"></script>
 
-        <script src="scripts/js/pagescroll.js"></script>
+
         <script src="scripts/controllers/mainCtrl.js"></script>
         <script src="scripts/company/companyCtrl.js"></script>
         <script src="scripts/services/serviceCtrl.js"></script>
+        <script src="scripts/js/skrollr.min.js"></script>
+        <script>skrollr.init();</script>
 
 
         <!-- endbuild -->
